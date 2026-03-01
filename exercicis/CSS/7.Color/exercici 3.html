@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Actividad 3</title>
+
+  <style>
+    :root{
+      --bg: #f3f3f3;
+      --paper: #ffffff;
+      --line: #e6e6e6;
+      --soft: #f7f7f7;
+      --text: #6f6f6f;
+      --title: #4b4b4b;
+      --red: #ff3b3b;
+      --red-soft: #ff5b5b;
+      --beige: #fbf1c9;
+    }
+
+    *{ box-sizing: border-box; }
+
+    body{
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+   
+    .activity{
+      max-width: 980px;
+      margin: 18px auto 0;
+      border: 1px solid #222;
+      background: #fff;
+    }
+    .activity .bar{
+      background: var(--beige);
+      padding: 10px 14px;
+      font-size: 14px;
+      color: #222;
+    }
+    .activity .content{
+      padding: 14px;
+      border-top: 1px solid #222;
+      font-size: 14px;
+      line-height: 1.35;
+      color: #222;
+    }
+    .activity .divider{
+      height: 10px;
+      border-top: 3px solid #bdbdbd;
+      margin-top: 12px;
+    }
+
+    
+    .frame{
+      background: var(--paper);
+      border: 1px solid #d9d9d9;
+      margin: 0 14px 16px;
+      box-shadow: 0 1px 0 rgba(0,0,0,.05);
+    }
+
+    .topbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 26px 30px 18px;
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .logo{
+      font-weight: 700;
+      letter-spacing: .5px;
+      font-size: 18px;
+      line-height: 1;
+      user-select: none;
+    }
+    .logo .a{ color: var(--red-soft); font-weight: 500; }
+    .logo .b{ color: #111; font-weight: 700; }
+
+    .feed{
+      font-size: 12px;
+      color: #e2e2e2;
+      text-decoration: none;
+    }
+
+    .hero{
+      padding: 34px 54px 38px;
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero p{
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.55;
+      color: #9a9a9a;
+      font-weight: 300;
+    }
+
+    .hl-name{
+      background: var(--red);
+      color: #fff;
+      padding: .15em .45em;
+      border-radius: 1px;
+      font-weight: 500;
+    }
+
+    .link-red{
+      color: var(--red);
+      text-decoration: none;
+      border-bottom: 2px solid rgba(255,59,59,.35);
+      padding-bottom: 1px;
+    }
+
+    .main{
+      padding: 26px 54px 34px;
+      background: var(--soft);
+    }
+
+    .section-title{
+      margin: 8px 0 18px;
+      font-size: 26px;
+      font-weight: 300;
+      color: #8a8a8a;
+    }
+
+    .post{
+      padding: 18px 0 20px;
+      border-top: 1px solid var(--line);
+    }
+    .post:first-of-type{ border-top: 0; }
+
+    .meta{
+      font-size: 13px;
+      color: #b0b0b0;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    .post-title{
+      color: var(--red);
+      font-style: normal;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .post:first-of-type .post-title{
+      border-bottom: 2px solid rgba(255,59,59,.35);
+      padding-bottom: 1px;
+    }
+
+    .excerpt{
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.55;
+      color: #7e7e7e;
+    }
+
+    .read-more{
+      color: var(--red);
+      text-decoration: none;
+      font-style: italic;
+      border-bottom: 2px solid rgba(255,59,59,.25);
+      padding-bottom: 1px;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="activity">
+
+    <div class="content">
+
+      <div class="frame">
+        <header class="topbar">
+          <div class="logo">
+            <span class="a">SIMPLEST</span><span class="b">BLOG</span>
+          </div>
+          <a class="feed" href="#">feed</a>
+        </header>
+
+        <section class="hero">
+          <p>
+            Hi, I'm <span class="hl-name">Fernando Moreira</span> a Frontend Engineer.<br />
+            Enthusiast performance, responsive design and usability, always looking for
+            the best project and good coffee. &nbsp;-- <a class="link-red" href="#">about me</a>
+          </p>
+        </section>
+
+        <main class="main">
+          <h2 class="section-title">Writing..</h2>
+
+          <article class="post">
+            <div class="meta">
+              Dec 10, 2015 — <a class="post-title" href="#">Welcome to Jekyll!</a> —
+              <span style="font-style: normal; color:#9b9b9b; font-weight:300;">
+                You'll find this post in your _posts directory. Edit it and rebuild the site to see changes.
+                The most common way is to run jekyll serve... <a class="read-more" href="#">Read more</a>
+              </span>
+            </div>
+          </article>
+
+          <article class="post">
+            <div class="meta">
+              Nov 26, 2015 — <a class="post-title" href="#">Lorem ipsum dolor sit</a> —
+              <span style="font-style: normal; color:#9b9b9b; font-weight:300;">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
+                tristique senectus et netus et malesuada... <a class="read-more" href="#">Read more</a>
+              </span>
+            </div>
+          </article>
+
+          <article class="post">
+            <div class="meta">
+              Nov 12, 2015 — <a class="post-title" href="#">Lorem ipsum dolor sit amet</a> —
+              <span style="font-style: normal; color:#9b9b9b; font-weight:300;">
+                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+                Donec eu libero sit amet quam egestas... <a class="read-more" href="#">Read more</a>
+              </span>
+            </div>
+          </article>
+
+          <article class="post">
+            <div class="meta">
+              Nov 12, 2015 — <a class="post-title" href="#">The quick, brown fox jumps over a lazy dog</a> —
+              <span style="font-style: normal; color:#9b9b9b; font-weight:300;">
+                The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+                Junk MTV quiz graced by fox whelps... <a class="read-more" href="#">Read more</a>
+              </span>
+            </div>
+          </article>
+
+        </main>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
