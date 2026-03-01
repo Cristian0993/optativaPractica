@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Venta de Altavoces</title>
+</head>
+<body>
+
+  <h1>Comprar Altavoz</h1>
+
+  <form action="procesar.php" method="post">
+    Modelo:<br>
+    <select name="modelo" required>
+      <option value="R4">R4</option>
+      <option value="R5">R5</option>
+      <option value="SR1">SR1</option>
+    </select><br><br>
+
+    Potencia máxima (50-100):<br>
+    <input type="number" name="potencia" min="50" max="100" required><br><br>
+
+    ¿Bluetooth?:<br>
+    <input type="radio" name="bluetooth" value="Sí" required> Sí
+    <input type="radio" name="bluetooth" value="No"> No<br><br>
+
+    Color:<br>
+    <input type="text" name="color" required><br><br>
+
+    <input type="submit" value="Comprar">
+  </form>
+
+</body>
+</html>

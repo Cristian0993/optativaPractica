@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro Red Social</title>
+</head>
+<body>
+
+  <h1>Registro</h1>
+
+  <form action="procesar.php" method="post">
+    Nombre:<br>
+    <input type="text" name="nombre" required><br><br>
+
+    Apellidos:<br>
+    <input type="text" name="apellidos" required><br><br>
+
+    Email:<br>
+    <input type="email" name="email" required><br><br>
+
+    Contraseña:<br>
+    <input type="password" name="password" required><br><br>
+
+    Fecha de nacimiento:<br>
+    <input type="date" name="fecha_nacimiento" required><br><br>
+
+    Género:<br>
+    <input type="radio" name="genero" value="Masculino" required> Masculino
+    <input type="radio" name="genero" value="Femenino"> Femenino
+    <input type="radio" name="genero" value="Otro"> Otro<br><br>
+
+    <input type="submit" value="Registrarse">
+  </form>
+
+</body>
+</html>
