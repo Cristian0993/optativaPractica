@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Búsqueda de Cámaras</title>
+</head>
+<body>
+
+  <h1>Búsqueda de Cámaras</h1>
+
+  <form action="buscar.php" method="get">
+    Marca: <input type="text" name="marca"><br>
+    Modelo: <input type="text" name="modelo"><br>
+    Tipo: 
+    <select name="tipo">
+      <option value="">--Seleccionar--</option>
+      <option value="DSLR">DSLR</option>
+      <option value="Mirrorless">Mirrorless</option>
+      <option value="Compacta">Compacta</option>
+      <option value="Instantanea">Instantánea</option>
+    </select><br>
+    Resolución mínima: <input type="number" name="resolucion_min" min="1"><br>
+    Wi-Fi: <input type="radio" name="wifi" value="Sí"> Sí
+           <input type="radio" name="wifi" value="No"> No<br>
+    <input type="submit" value="Buscar">
+  </form>
+
+</body>
+</html>

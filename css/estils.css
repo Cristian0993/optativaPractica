@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+#all{
+    width: 776px;
+	height: 1100px;
+    margin: 0 auto;
+    display: flex;
+    border: 3px solid black;
+}
+
+#menu{
+    width: 250px;
+    background: #e7e5e9;
+    border-right: 3px solid black;
+	border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 1097px;
+}
+
+#logo{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;   
+}
+
+#menu-contenido{
+    padding: 40px 28px;
+}
+
+#menu-contenido h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    
+}
+
+#menu-contenido a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 34px;
+}
+
+#content{
+    width: 530px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#header2{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+#header2 img {
+    height: 100%;
+}
+#header2 h1{
+    font-size: 28px;  
+    color: black;
+}
+
+#franja{
+    height: 60px;
+    background: #f5766f;
+    border-bottom: 3px solid black;
+}
+
+.seccion{
+    padding: 20px 18px;
+    border-bottom: 3px solid black;
+    background: white;
+}
+
+.presentacion-fondo{
+    padding-top: 24px;
+    padding-bottom: 18px;
+}
+
+.cajaPres{
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja{
+    border: 3px solid black;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caja h2{
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+}
+
+.presentacion{
+    height: 160px;
+    background: #deebf2;
+}
+
+#proyectos{
+    background: #d8e9cd;
+    border-bottom: 3px solid black;
+    padding: 18px 18px 36px 18px;
+}
+
+#proyectos h2{
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    margin-bottom: 32px;  
+}
+
+#cajas-proyectos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.proyecto{
+    width: 110px;
+    height: 145px;
+    background: #fab34e;
+    border: 3px solid black;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;  
+    color: black;
+    padding: 10px;
+}
+
+.sobremi{
+    height: 185px;
+    background: #facfd5;
+}
+
+.contacto{
+    height: 115px;
+    background: #dbd0e6;
+}
+
+#footer{
+    height: 160px;
+    background: #e3e1e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border-bottom: 3px solid black;
+}
+
+#footer p{
+    font-size: 28px; 
+    color: black;
+}
+
+#imgCristian{
+	    width: 100px;
+}
+
+.paragrafoTexto{
+	margin-left:5px;
+}
+
+.imgLogo{
+	width:50px;
+}
