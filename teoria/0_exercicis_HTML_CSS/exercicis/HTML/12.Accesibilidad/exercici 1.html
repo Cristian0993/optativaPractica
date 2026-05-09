@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi pagina Web</title>
+</head>
+<body>
+
+ 
+  <header>
+    <h1>🌐 Página de Cristian</h1>
+    <nav>
+      <ul>
+        <li><a href="#contenido">Ir al contenido</a></li>
+        <li><a href="#contacto">Ir al contacto</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  
+  <main id="contenido">
+    <h2>Bienvenido</h2>
+    <p>Esta es mi pagina web, espero que os guste.</p>
+
+    <section>
+      <h3>Artículos recientes</h3>
+      <article>
+        <h4>Accesibilidad en la Web</h4>
+        <p>La accesibilidad permite que todas las personas, incluidas aquellas con discapacidad, puedan usar mi web con mucha facilidad.</p>
+      </article>
+      <article>
+        <h4>Buenas prácticas</h4>
+        <ul>
+          <li>En mi pagina tenemos un simple formulario de contacto.</li>
+          <li>Tambien tenemos una barra para sugerencias y comentarios.</li>
+          <li>Entra escribre tu nombre y comenta .</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+ 
+  <footer id="contacto">
+    <h2>Contacto</h2>
+    <form action="/enviar" method="post">
+      <fieldset>
+        <legend>Formulario de contacto</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="40" required></textarea>
+        <br><br>
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+    <p>© 2025 Ejemplo Accesible</p>
+  </footer>
+
+</body>
+</html>
